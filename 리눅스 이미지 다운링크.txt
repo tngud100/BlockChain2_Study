@@ -1,0 +1,3 @@
+리눅스 우분투 20.04 LTS다운로드 링크
+
+https://releases.ubuntu.com/20.04/ubuntu-20.04.5-live-server-amd64.iso

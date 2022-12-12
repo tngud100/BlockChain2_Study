@@ -1,0 +1,12 @@
+cd ~/dev
+git clone https://github.com/saarc/h-explorer.git
+git checkout 2.2
+git pull origin 2.2
+
+
+docker-compose.yaml에 
+
+51번쨰줄
+      - /home/bstudent/fabric-samples/test-network/organizations:/tmp/crypto
+
+이면 된것임

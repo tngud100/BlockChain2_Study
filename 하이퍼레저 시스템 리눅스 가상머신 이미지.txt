@@ -1,0 +1,57 @@
+하이퍼레저 시스템 리눅스 가상머신 이미지 다운로드
+
+ 
+1. 이미지 다운로드
+
+https://ajouackr-my.sharepoint.com/:f:/g/personal/saarc_ajou_ac_kr/En6HXbKlpGNNk3IhhMkTp8UBdApSWzM952-04uYkr1HKRw?e=rWczIE
+
+링크내 
+ubuntu2004_fabric 2.2.ova
+ubuntu-install.ova
+다운로드
+
+-암호: sys1234
+
+ 
+
+2. 설치프로그램
+
+https://www.virtualbox.org/wiki/Downloads
+
+ 
+
+3. 링크내 자신의 운영체제에 맞는 프로그램 설치
+
+  VirtualBox 6.1.38 platform packages
+
+ 
+
+4. 설치 후 익스텐션 팩 설치
+
+  tualBox 6.1.38 Oracle VM VirtualBox Extension Pack
+
+
+
+
+
+! fabcar 수행 시 오류 수정사항
+
+cd ~/fabric-samples/test-network/
+
+mv .env docker
+
+ 
+
+수행 후 
+
+cd ~/fabric-samples/fabcar
+
+./networkDown.sh
+
+./startFabric.sh 
+
+ 
+
+수행하시면 제대로 됩니다. docker 설정파일(.env)의 위치가 적용되지 않아 생기는 문제입니다.
+
+수업시간에 뵙겠습니다.
